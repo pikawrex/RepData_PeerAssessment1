@@ -56,7 +56,7 @@ plot(Interval_mean$interval, Interval_mean$mean, type ="l", xlab = "5 min Interv
 
 ```  
 
-5-min interval that has the highest number of steps, average across the day is `r max(Interval_mean[2])`.
+Highest number of steps, average across the day is `r max(Interval_mean[2])`, and the interval is `r Interval_mean[which.max(Interval_mean$mean),1]`.
 
 
 ## Imputing missing values

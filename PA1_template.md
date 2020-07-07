@@ -79,7 +79,7 @@ plot(Interval_mean$interval, Interval_mean$mean, type ="l", xlab = "5 min Interv
 
 ![](PA1_template_files/figure-html/average interval-1.png)<!-- -->
 
-5-min interval that has the highest number of steps, average across the day is 206.1698113.
+Highest number of steps, average across the day is 206.1698113, and the interval is 835.
 
 
 ## Imputing missing values
